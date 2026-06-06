@@ -1,5 +1,17 @@
 # Week 05: Linux Computing Environment
 
-This week covered Linux command-line and bioinformatics computing exercises.
+## Focus
 
-The original submission artifacts are excluded from the public repository because they were report-oriented and did not add reusable code beyond the course summary.
+Linux command-line practice, file handling, and bioinformatics computing exercises.
+
+## Public Contents
+
+- This README summarizes the week without publishing report-only submission files.
+
+## Excluded Contents
+
+Submitted reports, course instructions, and non-reusable exercise artifacts are excluded.
+
+## Reproducibility Note
+
+This week is kept as a public-safe summary because the original files were mainly report-oriented rather than reusable code.

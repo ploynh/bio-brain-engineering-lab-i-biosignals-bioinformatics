@@ -2,7 +2,15 @@
 
 This repository contains cleaned coursework from an undergraduate Bio and Brain Engineering laboratory course block. It is organized as a readable lab portfolio rather than a production software package.
 
-The work starts with physiological and neural signal measurement, then moves into bioinformatics, sequence alignment, protein structure analysis, biomedical text mining, microarray analysis, and biological network modeling. Public files keep the useful code, small non-sensitive inputs, and selected non-identifying results. Raw human physiology/EEG recordings, submitted reports, copied course materials, and private identifiers are intentionally excluded.
+The work starts with physiological and neural signal measurement, then moves into bioinformatics, sequence alignment, protein structure analysis, biomedical text mining, microarray analysis, and biological network modeling. Public files keep the useful code, small non-sensitive inputs, selected non-identifying results, and a README summary for every week. Raw human physiology/EEG recordings, submitted reports, copied course materials, and private identifiers are intentionally excluded.
+
+Each week uses the same public-facing convention:
+
+- `README.md` explains the lab focus, included artifacts, excluded artifacts, and rerun notes.
+- `code/` is included only when reusable scripts or notebooks are safe to publish.
+- `data/` is included only for small non-sensitive inputs.
+- `results/` is included only for non-identifying figures, tables, or model artifacts.
+- `report/` is intentionally not published because original reports can contain names, student IDs, partner information, private measurements, and copied course text.
 
 ## Repository Structure
 

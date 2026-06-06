@@ -1,5 +1,17 @@
 # Week 01: Physiological Measurements
 
-This week covered blood pressure, ECG, EMG, and PPG measurement concepts.
+## Focus
 
-The original files are excluded from the public repository because they contained raw personal physiology measurements and submitted report material. Only the course-level summary is retained in the parent README.
+Blood pressure, ECG, EMG, and PPG measurement concepts.
+
+## Public Contents
+
+- This README summarizes the week without publishing private measurement files.
+
+## Excluded Contents
+
+Raw personal physiology measurements, submitted reports, names, identifiers, and course handouts are excluded.
+
+## Reproducibility Note
+
+This week is kept as a public-safe summary only because the original artifacts were mainly private measurement and report files.
