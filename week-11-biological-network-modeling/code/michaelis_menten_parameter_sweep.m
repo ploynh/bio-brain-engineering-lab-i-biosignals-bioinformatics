@@ -3,7 +3,7 @@
 tspan=[0 20];
 y0=[0];
 figure;
-ode = @(t,y) prelabmodel(t,y,1,1);
+ode = @(t,y) michaelis_menten_model(t,y,1,1);
 [t,y]=ode45(ode, tspan, y0)
 plot(t,y)
 xlabel('Time')
@@ -19,7 +19,7 @@ legend_labels_I = cell(1, length(I0_values));
 figure;
 for i = 1:length(I0_values)
     ii = I0_values(i);
-    ode = @(t,y) prelabmodel(t,y,ii,1);
+    ode = @(t,y) michaelis_menten_model(t,y,ii,1);
     [t,y] = ode45(ode, tspan, y0)
     hold on;
     plot(t,y)
@@ -38,7 +38,7 @@ legend_labels_Y = cell(1, length(Y0_values));
 figure;
 for i = 1:length(Y0_values)
     ii = Y0_values(i);
-    ode = @(t,y) prelabmodel(t,y,1,ii);
+    ode = @(t,y) michaelis_menten_model(t,y,1,ii);
     [t,y] = ode45(ode, tspan, y0)
     hold on;
     plot(t,y)
@@ -60,7 +60,7 @@ for i = 1:length(I0_values_13)
     figure;
     for j = 1:length(Y0_values_13)
         jj = Y0_values_13(j);
-        ode = @(t,y) prelabmodel(t,y,ii,jj);
+        ode = @(t,y) michaelis_menten_model(t,y,ii,jj);
         [t,y] = ode45(ode, tspan, y0)
         hold on;
         plot(t,y)

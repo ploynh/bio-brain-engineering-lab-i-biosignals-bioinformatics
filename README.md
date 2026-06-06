@@ -4,6 +4,8 @@ This course block starts with physiological and neural signal measurement, then 
 
 Raw human physiology/EEG recordings and derived personal waveform plots are intentionally excluded. The repository keeps code, summaries, and non-identifying figures suitable for a public portfolio.
 
+Published folders use a consistent structure: `code/` for scripts and notebooks, `data/` for small non-sensitive inputs, and `results/` for figures, tables, or model artifacts. Weeks with only private or course-policy-sensitive material include a short README instead of the original submission files.
+
 | Week | Folder | Topic | Code focus |
 | --- | --- | --- | --- |
 | 01 | `week-01-physiological-measurements` | ECG, EMG, PPG, and blood pressure measurement | Spreadsheet-style analysis summary with raw personal measurement files excluded. |
@@ -16,4 +18,4 @@ Raw human physiology/EEG recordings and derived personal waveform plots are inte
 | 08 | `week-08-biomedical-literature-mining` | Biomedical text mining | Python/Colab co-occurrence disease-gene scoring notebook. |
 | 09 | `week-09-microarray-deg-analysis` | Microarray analysis 1 | MATLAB normalization, dataset splitting, t-test, and DEG extraction. |
 | 10 | `week-10-microarray-classification` | Microarray analysis 2 | Python notebooks for decision-tree disease classification. |
-| 11 | `week-11-biological-network-modeling` | Biological network modeling | MATLAB simulations for phosphorylation and MAPK model behavior. |
+| 11 | `week-11-biological-network-modeling` | Biological network modeling | MATLAB simulations for Michaelis-Menten-style phosphorylation and self-contained MAPK cascade behavior. |

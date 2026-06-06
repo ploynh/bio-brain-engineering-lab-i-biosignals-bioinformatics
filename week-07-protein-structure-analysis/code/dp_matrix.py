@@ -1,4 +1,4 @@
-from params import score_rule, gap_penalty
+from blosum62_params import score_rule, gap_penalty
 import numpy as np
 
 

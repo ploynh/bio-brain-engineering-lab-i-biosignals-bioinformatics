@@ -1,5 +1,5 @@
 import numpy as np
-from param import score_rule, gap_penalty
+from scoring_params import score_rule, gap_penalty
 
 class DPmatrix(object):
     # Feel free to use this attributions
@@ -11,7 +11,7 @@ class DPmatrix(object):
         """
         Goal: Implements fill_in_DPmat() and trace_back()
         1. Note that trace_back function should be implemented in recursive way
-        2. Use score_rule and gap_penalty defined in param.py
+        2. Use score_rule and gap_penalty defined in scoring_params.py
         3. Modifying other parts is not allowed without specific reasons
             - Feel free to use other functions as-is
         """
@@ -125,7 +125,6 @@ class DPmatrix(object):
         result_str = ''.join(result_str)
         print('result: ', result_str)
         print('score: ', self.score_matrix[len(self.seq1)][len(self.seq2)])
-
 
 
 

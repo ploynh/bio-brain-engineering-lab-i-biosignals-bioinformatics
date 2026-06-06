@@ -5,18 +5,17 @@ from pathlib import Path
 Pre-lab activities
 
 Find the most similar template to query sequence using dynamic programming algorithm
-Fill out DPmat.py file and run this file
+Run the dynamic-programming alignment helper against the query sequence.
 """
 ### 1. Import Libraries
-import DPmat
 import numpy as np
-from DPmat import DPmatrix
+from dp_matrix import DPmatrix
 import pandas as pd
 ### 2. Read Database
 # Setup query and database file path
-code_dir = Path(__file__).resolve().parent
-query_path = code_dir / "query.fa"
-database_path = code_dir / "customDB.fa"
+week_dir = Path(__file__).resolve().parents[1]
+query_path = week_dir / "data" / "query_sequence.fa"
+database_path = week_dir / "data" / "custom_protein_database.fa"
 
 # read query fasta file
 database = {}

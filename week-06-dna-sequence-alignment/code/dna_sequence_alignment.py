@@ -1,7 +1,7 @@
 import argparse
 import os
 import numpy as np
-from DPmat import DPmatrix
+from dp_matrix import DPmatrix
 
 
 """
